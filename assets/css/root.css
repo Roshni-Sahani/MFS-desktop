@@ -1,0 +1,99 @@
+:root {
+    /* font-size  */
+    --fs-xsm: 18px;
+    --fs-sm: 22px;
+    --fs-md: 25px;
+    --fs-lg: 43px;
+    /* color  */
+    --col-midgray: #E9E6F5;
+    --col-lightpurple: #D5D5D5;
+    --bs-white: #FFFFFF;
+    --bs-lightgray: #FAF9FD;
+    --col-darkpurple: #3B2E58;
+    --col-black: #2E2E2E;
+    --col-darkblack: #000;
+    --bs-purple: #8661C5;
+    --Light-Purple: #D59DFF;
+    --light-skin: #faf9fd;
+}
+
+/* ====================line-height============ */
+.lh-148 {
+    line-height: 148%;
+}
+
+.lh-139 {
+    line-height: 139%;
+}
+
+/* ==============font-size=========== */
+.fs-18 {
+    font-size: var(--fs-xsm);
+}
+
+.fs-22 {
+    font-size: var(--fs-sm);
+}
+
+.fs-35 {
+    font-size: var(--fs-md);
+}
+
+.fs-76 {
+    font-size: var(--fs-lg);
+}
+
+/* =========colors============ */
+
+.bg-midgray {
+    background-color: var(--col-midgray);
+}
+
+.col-lightpurple {
+    color: var(--bs-lightgray);
+}
+
+.col-darkpurple {
+    color: var(--col-darkpurple);
+}
+
+.bs-white {
+    color: var(--bs-white);
+}
+
+.bs-lightgray {
+    color: var(--bs-lightgray);
+}
+
+.col-darkpurple {
+    color: var(--col-darkpurple);
+}
+
+.col-black {
+    color: var(--col-black);
+}
+
+.col-darkblack {
+    color: var(--col-darkblack);
+}
+
+.bg-purple {
+    background-color: var(--bs-purple);
+}
+
+.light-purple {
+    background-color: var(--Light-Purple);
+}
+
+.light-skin {
+    background-color: var(--light-skin);
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs-xsm: 18px;
+        --fs-sm: 22px;
+        --fs-md: 35px;
+        --fs-lg: 76px;
+    }
+}
