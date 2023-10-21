@@ -9,6 +9,10 @@
     /* outline: red 2px solid; */
 }
 
+html {
+    overflow-x: hidden;
+}
+
 .nav-shadow {
     background: linear-gradient(90deg, #3B2E58 0%, #8661C5 100%);
 }
@@ -220,14 +224,13 @@
     list-style: disc !important;
 }
 
-ul {
+/* ul {
     padding-left: 0;
-}
+} */
 
 .cards {
     border-radius: 4.659px;
-    opacity: 0.7;
-    background: var(--Purple, #8661C5);
+    background-color: rgba(134, 97, 197, 0.7);
     box-shadow: 3.72705px 3.72705px 16.77172px 0px rgba(0, 0, 0, 0.70);
 }
 
@@ -245,6 +248,7 @@ ul {
     height: 172.3px;
     --bs-shadow-black2: #00000040;
     transition: 200ms linear all;
+    background-color: white;
 }
 
 .small_box:hover {
@@ -279,7 +283,7 @@ ul {
 .pos-fixed {
     position: fixed;
     z-index: 2;
-    bottom: 35px;
+    bottom: 109px;
     right: 52px;
 }
 
@@ -394,7 +398,20 @@ ul {
 .pos-abs1 {
     position: absolute;
     left: 0;
-    top: -44%;
+    top: -28%;
+}
+
+.ellipse3 {
+    position: absolute;
+    left: 0;
+    top: -12%;
+}
+
+.pl-0 {
+    padding-left: 0;
+
+
+
 }
 
 @keyframes swing {
